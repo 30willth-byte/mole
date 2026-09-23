@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.8.0/aframe.min.js"></script>
+    </head>
+    <body>
+        
+        <a-scene>
+            <a-camera><a-cursor></a-cursor></a-camera>
+ <a-sky color="skyblue" ></a-sky>
+    <a-plane position="0 -6 0" rotation="-90 0 0" width="100" height="100" color="green" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFyHuBbjPnXp9wbObj5qVGtU8mHXaKCGWzQCuVh1YIikQRB7ZxqB7HK5XOQaKfdPcPNS_ZnGnV-2GIZOY8s-Mu5aMMTwc-30fHQaH-rRNb&s=10></a-plane>
+  <a-cone color="black" radius-bottom="0.5" radius-top="5" height="1" position="0 -6.3 -25"></a-cone>  
+     <a-cone color="black" radius-bottom="0.5" radius-top="5" height="1" position="25 -6.3 25"></a-cone>  
+     <a-cone color="black" radius-bottom="0.5" radius-top="5" height="1" position="-25 -6.3 25"></a-cone>
+     <a-cone color="black" radius-bottom="0.5" radius-top="5" height="1" position="35 -6.3 -35"></a-cone>
+     <a-cone color="black" radius-bottom="0.5" radius-top="5" height="1" position="-35 -6.3 -35"></a-cone>
+    <a-cone color="black" radius-bottom="0.5" radius-top="5" height="1" position="-35 -6.3 0"></a-cone>
+   <a-cone color="black" radius-bottom="0.5" radius-top="5" height="1" position="35 -6.3 0"></a-cone>
+                        
+     <a-cylinder position="0 -11 -25" radius="4.5" rotation="0 -180 0" height="10" color="#FFC65D" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-68HeLBaVDYxMpF_24_i7pXnn-SRJ57XgIaRJIwzqQ&s=10"
+     animation="
+     property: position;
+     from: 0 -11 -25;
+     to: 0 0 -25
+     dir: alternate;
+     dur: 1500;
+     easing: easeInOutBack;
+     loop: true;
+     "
+      animation__disappear="
+    property: visible;
+     from: true;
+to: false;
+  startEvents: click;
+   "></a-cylinder>                  
+                        
+    <a-cylinder position="25 -11 25" radius="4.5" rotation="0 90 0" height="10" color="#FFC65D" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-68HeLBaVDYxMpF_24_i7pXnn-SRJ57XgIaRJIwzqQ&s=10"
+     animation="
+     property: position;
+     from: 25 -11 25;
+     to: 25 0 25
+     dir: alternate;
+     dur: 1500;
+     easing: easeInOutBack;
+     loop: true;
+     "
+      animation__disappear="
+    property: visible;
+     from: true;
+to: false;
+  startEvents: click;
+   "></a-cylinder>                    
+                        
+         <a-cylinder position="-25 -11 25" radius="4.5" rotation="0 -90 0" height="10" color="#FFC65D" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-68HeLBaVDYxMpF_24_i7pXnn-SRJ57XgIaRJIwzqQ&s=10"
+     animation="
+     property: position;
+     from: -25 -11 25;
+     to: -25 0 25;
+     dir: alternate;
+     dur: 1500;
+     easing: easeInOutBack;
+     loop: true;
+     "
+      animation__disappear="
+    property: visible;
+     from: true;
+to: false;
+  startEvents: click;
+   "></a-cylinder>                    
+                        
+     <a-cylinder position="35 -11 -35" radius="4.5" rotation="0 90 0" height="10" color="#FFC65D" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-68HeLBaVDYxMpF_24_i7pXnn-SRJ57XgIaRJIwzqQ&s=10"
+     animation="
+     property: position;
+     from: 35 -11 -35;
+     to: 35 0 -35;
+     dir: alternate;
+     dur: 1500;
+     easing: easeInOutBack;
+     loop: true;
+     "
+      animation__disappear="
+    property: visible;
+     from: true;
+to: false;
+  startEvents: click;
+   "></a-cylinder>                         
+                      
+
+     <a-cylinder position="-35 -11 -35" radius="4.5" rotation="0 -90 0" height="10" color="#FFC65D" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-68HeLBaVDYxMpF_24_i7pXnn-SRJ57XgIaRJIwzqQ&s=10"
+     animation="
+     property: position;
+     from: -35 -11 -35;
+     to: -35 0 -35;
+     dir: alternate;
+     dur: 1500;
+     easing: easeInOutBack;
+     loop: true;
+     "
+      animation__disappear="
+    property: visible;
+     from: true;
+to: false;
+  startEvents: click;
+   "></a-cylinder> 
+
+    <a-cylinder position="-35 -11 0" radius="4.5" rotation="0 -90 0" height="10" color="#FFC65D" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-68HeLBaVDYxMpF_24_i7pXnn-SRJ57XgIaRJIwzqQ&s=10"
+     animation="
+     property: position;
+     from: -35 -11 0;
+     to: -35 0 0;
+     dir: alternate;
+     dur: 1500;
+     easing: easeInOutBack;
+     loop: true;
+     "
+      animation__disappear="
+    property: visible;
+     from: true;
+to: false;
+  startEvents: click;
+   "></a-cylinder>
+                      
+    <a-cylinder position="35 -11 0" radius="4.5" rotation="0 -90 0" height="10" color="#FFC65D" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-68HeLBaVDYxMpF_24_i7pXnn-SRJ57XgIaRJIwzqQ&s=10"
+     animation="
+     property: position;
+     from: 35 -11 0;
+     to: 35 0 0;
+     dir: alternate;
+     dur: 1500;
+     easing: easeInOutBack;
+     loop: true;
+     "
+      animation__disappear="
+    property: visible;
+     from: true;
+to: false;
+  startEvents: click;
+   "></a-cylinder> 
+ 
+ 
+ 
+ 
+ 
+ 
+                      
+        </a-scene>
+    </body>
+</html>
